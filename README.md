@@ -63,7 +63,13 @@ function makesTen(a, b) {
 [37. Let's Fuel Up!](https://edabit.com/challenge/YMWDcSuYwYvve3HZj)
 
 ```js
-
+function calculateFuel(n) {
+	if(n > 10 == 0){
+		return 100
+	}else{
+	return n * 10	
+	}
+}
 ```
 
 [38. Buggy Code (Part 2)](https://edabit.com/challenge/uE9AJ4sSrrpSASMpu)
@@ -149,7 +155,13 @@ function length(str) {
 [45. Divides Evenly](https://edabit.com/challenge/JfB9mWmbwYHbupxCB)
 
 ```js
-
+function dividesEvenly(a, b) {
+	if(a % b == 0){
+		return true
+	}else{
+		return false
+	}
+}
 ```
 
 [46. Return a String as an Integer](https://edabit.com/challenge/rGsgEswWuW339yNxY)
